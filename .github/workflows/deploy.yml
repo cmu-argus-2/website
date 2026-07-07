@@ -25,9 +25,10 @@ jobs:
           node-version: 22
           cache: npm
 
+      # The project already owns its complete static-export configuration in
+      # next.config.ts. Asking configure-pages to patch Next.js would create a
+      # temporary next.config.js that shadows it and drops trailingSlash.
       - uses: actions/configure-pages@v5
-        with:
-          static_site_generator: next
 
       # user/org pages (repo named *.github.io) serve from /, project pages from /<repo>
       - name: Derive base path
