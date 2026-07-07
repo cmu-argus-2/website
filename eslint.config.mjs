@@ -13,6 +13,14 @@ const eslintConfig = defineConfig([
     "build/**",
     "next-env.d.ts",
   ]),
+  {
+    // React Three Fiber owns these objects outside React's render cycle. Its
+    // frame callbacks intentionally mutate Three.js scene and camera objects.
+    files: ["src/components/three/**/*.{ts,tsx}"],
+    rules: {
+      "react-hooks/immutability": "off",
+    },
+  },
 ]);
 
 export default eslintConfig;

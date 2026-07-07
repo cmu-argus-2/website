@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Argus Website
 
-## Getting Started
+Public website for Argus, a student-built 1U CubeSat mission from Carnegie
+Mellon University and Instituto Superior Técnico. The site explains the
+mission, spacecraft design, visual orbit-determination payload, team, and
+open-source subsystem repositories.
 
-First, run the development server:
+The production site is published at
+[cmu-argus-2.github.io/website](https://cmu-argus-2.github.io/website/).
+
+## Development
+
+The site is a statically exported Next.js application. Node.js 22 is used in
+CI.
 
 ```bash
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open <http://localhost:3000>. Before submitting a change, run:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run lint
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To reproduce the GitHub Pages project-path build locally:
 
-## Learn More
+```bash
+NEXT_PUBLIC_BASE_PATH=/website \
+NEXT_PUBLIC_SITE_URL=https://cmu-argus-2.github.io/website \
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+The static export is written to `out/`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Pushing to `main` runs [the GitHub Pages workflow](.github/workflows/deploy.yml).
+It derives the repository base path, builds the static export, and deploys it
+through GitHub Actions. The repository's Pages source must be set to
+**GitHub Actions**.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The website source code is available under the [MIT License](LICENSE).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Institutional names and marks, the Argus mission patch, photographs, videos,
+3D spacecraft models, and other media in `public/` are not granted under the
+MIT License. They remain subject to the rights of their respective owners and
+may not be reused without permission.
