@@ -5,7 +5,7 @@ export const metadata: Metadata = { title: "Radio" };
 
 const PLANNED: [string, string][] = [
   ["Band", "UHF amateur band"],
-  ["Frequency", "435 MHz (coordination in progress)"],
+  ["Frequency", "To be published after coordination"],
   ["Modes", "LoRa telemetry · GMSK experiment · packet repeater"],
   ["Antennas", "Deployable tape-measure UHF, 50 Ω"],
   ["Ground segment", "Pittsburgh ground stations + community receivers"],

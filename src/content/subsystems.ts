@@ -155,7 +155,7 @@ export const CALLOUTS: CalloutDef[] = [
     anchor: "anchor_antennas",
     stagger: [0.24, 0.6],
     label: "Antennas",
-    blurb: "Tape-measure UHF antennas tuned for 435 MHz.",
+    blurb: "Tape-measure UHF antennas for spacecraft communications.",
     side: "right",
   },
   {

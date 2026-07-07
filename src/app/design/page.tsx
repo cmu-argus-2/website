@@ -13,7 +13,7 @@ const SPECS: [string, string][] = [
   ["Payload", "Earth imaging + landmark inference + batch estimator"],
   ["Reference", "Onboard GNSS"],
   ["Software", "Python flight software"],
-  ["Comms", "UHF · LoRa @ 435 MHz · GMSK"],
+  ["Comms", "UHF · LoRa · GMSK"],
   ["Attitude control", "Magnetorquers + experimental reaction wheel"],
   ["Architecture", "COTS-based · student-built · open source"],
 ];
@@ -53,7 +53,7 @@ const SUBSYSTEMS: [string, string][] = [
   ],
   [
     "Communications",
-    "A UHF radio (LoRa @ 435 MHz) with tape-measure antennas handles telemetry and commands, plus the GMSK Doppler experiment and amateur packet repeater.",
+    "A UHF radio using LoRa with tape-measure antennas handles telemetry and commands, plus the GMSK Doppler experiment and amateur packet repeater.",
   ],
   [
     "Ground segment",
