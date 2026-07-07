@@ -30,6 +30,13 @@ export const TEAM: Member[] = [
     alt: "Zac Manchester",
   },
   {
+    name: "João Paulo Monteiro",
+    role: "Professor / PI",
+    section: "Faculty Advisors",
+    image: "joao-paulo-monteiro.webp",
+    alt: "João Paulo Monteiro",
+  },
+  {
     name: "Neil Khera",
     role: "Avionics",
     section: "Mission Lead",
@@ -39,7 +46,7 @@ export const TEAM: Member[] = [
   },
   {
     name: "Chase Dunaway",
-    role: "GNC, Payload, FSW",
+    role: "Guidance, Navigation & Control · Payload · Flight Software",
     section: "PhD",
     image: "chase.webp",
     alt: "Chase Dunaway",
@@ -47,7 +54,7 @@ export const TEAM: Member[] = [
   },
   {
     name: "Pedro Cachim",
-    role: "GNC, Payload, FSW",
+    role: "Guidance, Navigation & Control · Payload · Flight Software",
     section: "PhD",
     image: "pedro-cachim.webp",
     alt: "Pedro Cachim",
@@ -55,7 +62,7 @@ export const TEAM: Member[] = [
   },
   {
     name: "Saksham Bhutani",
-    role: "Flight Software & Comms",
+    role: "Flight Software · Communications",
     section: "Student",
     image: "saksham.webp",
     alt: "Saksham Bhutani",

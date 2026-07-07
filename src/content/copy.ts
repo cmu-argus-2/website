@@ -5,7 +5,7 @@
 
 export const site = {
   name: "ARGUS",
-  title: "Argus — A CubeSat mission to demonstrate visual orbit and attitude determination",
+  title: "Argus: A CubeSat mission to demonstrate visual orbit and attitude determination",
   description:
     "Argus is a student-built, open-source CubeSat mission that teaches small spacecraft to find themselves by looking at Earth. Built by Carnegie Mellon and Instituto Superior Técnico.",
   github: "https://github.com/cmu-argus-2",

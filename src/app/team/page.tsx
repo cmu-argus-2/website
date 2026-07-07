@@ -54,9 +54,9 @@ export default function TeamPage() {
           The Carnegie Mellon NanoSatellite Lab, led by Principal Investigators Zac Manchester and
           Brandon Lucia, is pioneering low-cost satellites that bring edge computing and AI/ML
           capabilities into space. Each semester, students in CMU&apos;s Spacecraft Design-Build-Fly
-          graduate course contribute to the spacecraft&apos;s iterative design-build-test cycle —
+          graduate course contribute to the spacecraft&apos;s iterative design-build-test cycle,
           organized into subsystem teams spanning Mechanical, Communications, Avionics, and Flight
-          Software/Payload — with a dedicated multidisciplinary team of undergraduate, masters, and
+          Software/Payload, with a dedicated multidisciplinary team of undergraduate, masters, and
           PhD students and research staff continuing the work year-round.
         </p>
       </div>
