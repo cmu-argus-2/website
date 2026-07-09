@@ -70,7 +70,7 @@ export const TEAM: Member[] = [
   },
   {
     name: "José Maria Anca Mateus",
-    role: "Flight Software",
+    role: "Flight Software · Communications",
     section: "Student",
     image: "jose-maria-anca-mateus.webp",
     alt: "José Maria Anca Mateus",
