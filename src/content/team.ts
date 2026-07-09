@@ -68,4 +68,18 @@ export const TEAM: Member[] = [
     alt: "Saksham Bhutani",
     url: "https://sakshambhutani.xyz",
   },
+  {
+    name: "José Maria Anca Mateus",
+    role: "Flight Software",
+    section: "Student",
+    image: "jose-maria-anca-mateus.webp",
+    alt: "José Maria Anca Mateus",
+  },
+  {
+    name: "Tabish Shaik",
+    role: "Payload",
+    section: "Student",
+    image: "tabish-shaik.webp",
+    alt: "Tabish Shaik",
+  },
 ];
