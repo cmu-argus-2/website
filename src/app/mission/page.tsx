@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { PageShell } from "@/components/layout/PageShell";
 
-export const metadata: Metadata = { title: "Mission" };
+export const metadata: Metadata = { title: "Mission", alternates: { canonical: "/mission/" } };
 
 export default function MissionPage() {
   return (

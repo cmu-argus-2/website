@@ -4,7 +4,7 @@ import { PageShell } from "@/components/layout/PageShell";
 import { TEAM, SECTIONS, type Member } from "@/content/team";
 import { withBasePath } from "@/lib/paths";
 
-export const metadata: Metadata = { title: "Team" };
+export const metadata: Metadata = { title: "Team", alternates: { canonical: "/team/" } };
 
 function MemberCard({ member }: { member: Member }) {
   const photo = (

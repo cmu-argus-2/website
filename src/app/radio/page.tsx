@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { PageShell } from "@/components/layout/PageShell";
 
-export const metadata: Metadata = { title: "Radio" };
+export const metadata: Metadata = { title: "Radio", alternates: { canonical: "/radio/" } };
 
 const PLANNED: [string, string][] = [
   ["Band", "UHF amateur band"],

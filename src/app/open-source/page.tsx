@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { PageShell } from "@/components/layout/PageShell";
 import { REPOS } from "@/content/repos";
 
-export const metadata: Metadata = { title: "Open Source" };
+export const metadata: Metadata = { title: "Open Source", alternates: { canonical: "/open-source/" } };
 
 const statusColor: Record<string, string> = {
   Public: "border-signal/50 text-signal",

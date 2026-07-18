@@ -3,7 +3,7 @@ import Image from "next/image";
 import { PageShell } from "@/components/layout/PageShell";
 import { withBasePath } from "@/lib/paths";
 
-export const metadata: Metadata = { title: "Design" };
+export const metadata: Metadata = { title: "Design", alternates: { canonical: "/design/" } };
 
 const SPECS: [string, string][] = [
   ["Form factor", "1U CubeSat · CDS Rev 14.1"],

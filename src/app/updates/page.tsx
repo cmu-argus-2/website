@@ -4,7 +4,7 @@ import { PageShell } from "@/components/layout/PageShell";
 import { UPDATES } from "@/content/updates";
 import { withBasePath } from "@/lib/paths";
 
-export const metadata: Metadata = { title: "Updates" };
+export const metadata: Metadata = { title: "Updates", alternates: { canonical: "/updates/" } };
 
 function formatDate(iso: string) {
   return new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-US", {
