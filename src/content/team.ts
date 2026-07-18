@@ -82,4 +82,12 @@ export const TEAM: Member[] = [
     image: "tabish-shaik.webp",
     alt: "Tabish Shaik",
   },
+  {
+    name: "Sophia Zhao",
+    role: "Flight Software · Payload",
+    section: "Student",
+    image: "sophia-zhao.webp",
+    alt: "Sophia Zhao",
+    url: "https://www.linkedin.com/in/sophizhao/",
+  },
 ];
