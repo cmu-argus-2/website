@@ -23,6 +23,22 @@ export interface Update {
 
 export const UPDATES: Update[] = [
   {
+    slug: "argus-at-opensauce",
+    date: "2026-07-19",
+    category: "Open Source",
+    title: "Argus at OpenSauce",
+    summary:
+      "We exhibited at OpenSauce, showing off the development of Argus alongside a live engineering build — and got to meet some incredible people, including Hank Green, Michael Reeves, Joe Barnard (BPS.SPACE), Scott Manley, and Tim Dodd (The Everyday Astronaut).",
+    photos: [
+      "opensauce-booth.webp",
+      "opensauce-engineering-build.webp",
+      "opensauce-team-visitors.webp",
+      "opensauce-team-group.webp",
+      "opensauce-team-selfie.webp",
+    ],
+    cover: "opensauce-booth.webp",
+  },
+  {
     slug: "full-system-testing-campaign",
     date: "2026-05-10",
     category: "Testing",
